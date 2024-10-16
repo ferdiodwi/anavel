@@ -13,8 +13,23 @@
         android:theme="@style/Theme.Anavel"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name="com.kelompok2.Activity.ScrollActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kelompok2.Activity.ListMHSActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kelompok2.Activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kelompok2.Activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kelompok2.Activity.StartActivity"
+            android:exported="false" />
+        <activity
+             android:name="com.kelompok2.Activity.LoginActivity"
+             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

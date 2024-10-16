@@ -1,0 +1,461 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0F0F5"
+    tools:context="com.kelompok2.Activity.Fragment.DashboardFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venue Booking Services"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <!-- City Input -->
+        <EditText
+            android:id="@+id/etCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your city"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:background="@drawable/button_google"
+            android:inputType="text" />
+
+        <!-- Venue Image Slider -->
+        <ImageView
+            android:id="@+id/ivVenueImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/rectangle121_vanue"
+            android:scaleType="centerCrop" />
+
+        <!-- Venue Details -->
+        <TextView
+            android:id="@+id/tvVenueLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malad East, Mumbai"
+            android:textSize="16sp"
+            android:textColor="#808080"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvVenueName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monica Hall"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvVenuePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 650 per plate"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvVenueCapacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capacity of people: 400-500"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="4dp" />
+
+        <!-- Rating and Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <!-- Rating -->
+            <TextView
+                android:id="@+id/tvRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="★ 5.0 (10)"
+                android:textSize="16sp"
+                android:textColor="#8B0000" />
+
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content" />
+
+            <!-- Shortlist Button -->
+            <Button
+                android:id="@+id/btnShortlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:text="Shortlist"
+                android:textColor="#FFFFFF" />
+
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content" />
+
+            <!-- Share Button -->
+            <Button
+                android:id="@+id/btnShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:text="Share"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <!-- View Details and Call Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <!-- View Details Button -->
+            <Button
+                android:id="@+id/btnViewDetails"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="View Details"
+                android:textColor="#FFFFFF" />
+
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content" />
+
+            <!-- Call Button -->
+            <Button
+                android:id="@+id/btnCall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="Call"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_shape"
+            android:text="Next"
+            android:textColor="#FFFFFF" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+        <ImageView
+            android:id="@+id/ivVenueImage2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/rectangle121_vendor"
+            android:scaleType="centerCrop" />
+
+        <!-- Venue Details -->
+        <TextView
+            android:id="@+id/tvVenueLocation2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malad East, Mumbai"
+            android:textSize="16sp"
+            android:textColor="#808080"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvVenueName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monica Hall"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvVenuePrice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 650 per plate"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvVenueCapacity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capacity of people: 400-500"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="4dp" />
+
+        <!-- Rating and Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <!-- Rating -->
+            <TextView
+                android:id="@+id/tvRating2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="★ 5.0 (10)"
+                android:textSize="16sp"
+                android:textColor="#8B0000" />
+
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content" />
+
+            <!-- Shortlist Button -->
+            <Button
+                android:id="@+id/btnShortlist2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:text="Shortlist"
+                android:textColor="#FFFFFF" />
+
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content" />
+
+            <!-- Share Button -->
+            <Button
+                android:id="@+id/btnShare2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:text="Share"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <!-- View Details and Call Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <!-- View Details Button -->
+            <Button
+                android:id="@+id/btnViewDetails2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="View Details"
+                android:textColor="#FFFFFF" />
+
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content" />
+
+            <!-- Call Button -->
+            <Button
+                android:id="@+id/btnCall2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="Call"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/btnNext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_shape"
+            android:text="Next"
+            android:textColor="#FFFFFF" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+        <ImageView
+            android:id="@+id/ivVenueImage3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/rectangle121_vendor"
+            android:scaleType="centerCrop" />
+
+        <!-- Venue Details -->
+        <TextView
+            android:id="@+id/tvVenueLocation3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malad East, Mumbai"
+            android:textSize="16sp"
+            android:textColor="#808080"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvVenueName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monica Hall"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvVenuePrice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 650 per plate"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvVenueCapacity3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capacity of people: 400-500"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="4dp" />
+
+        <!-- Rating and Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <!-- Rating -->
+            <TextView
+                android:id="@+id/tvRating3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="★ 5.0 (10)"
+                android:textSize="16sp"
+                android:textColor="#8B0000" />
+
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content" />
+
+            <!-- Shortlist Button -->
+            <Button
+                android:id="@+id/btnShortlist3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:text="Shortlist"
+                android:textColor="#FFFFFF" />
+
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content" />
+
+            <!-- Share Button -->
+            <Button
+                android:id="@+id/btnShare3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:text="Share"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <!-- View Details and Call Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <!-- View Details Button -->
+            <Button
+                android:id="@+id/btnViewDetails3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="View Details"
+                android:textColor="#FFFFFF" />
+
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content" />
+
+            <!-- Call Button -->
+            <Button
+                android:id="@+id/btnCall3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="Call"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/btnNext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_shape"
+            android:text="Next"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+</ScrollView>

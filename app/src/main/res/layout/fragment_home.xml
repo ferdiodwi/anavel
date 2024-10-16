@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kelompok2.Activity.Fragment.HomeFragment"
+    android:padding="12dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Sido Rabi"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search"
+        android:background="@drawable/button_google"
+        android:padding="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/rectangle121">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle119">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="Invitation"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="#80000000"
+                android:padding="0dp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="-40dp"
+                android:gravity="center"
+                android:layout_width="match_parent" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle122">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="Tasklist"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="#80000000"
+                android:padding="0dp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="-40dp"
+                android:gravity="center"
+                android:layout_width="match_parent" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="16dp"
+        android:text="Wedds Planning Services"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rectangle123"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="16dp"
+            android:text="Favourites"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle135">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="Jewellery"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:background="#80000000"
+                    android:padding="0dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="-40dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle136">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="Bridal Wear"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:background="#80000000"
+                    android:padding="0dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="-40dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle137">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="Mehndi"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:background="#80000000"
+                    android:padding="0dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="-40dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle138">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="Makeup artist"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:background="#80000000"
+                    android:padding="0dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="-40dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent" />
+            </FrameLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
