@@ -7,6 +7,7 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import com.kelompok2.anavel.R;
 
 public class Coba {
 
