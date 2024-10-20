@@ -125,7 +125,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 }
 
-//      findViewById
+//        findViewById
 //        dateFormatter = new SimpleDateFormat("dd-MMM-yyyy");
 //        btnLoginRegister = findViewById(R.id.button_signupSignup);
 //        btnRegister = findViewById(R.id.btn_register_register);

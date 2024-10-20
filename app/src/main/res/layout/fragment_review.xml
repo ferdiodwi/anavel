@@ -1,0 +1,280 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Reviews"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Review Card 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <!-- Avatar -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/foto_profil"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Text Content -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pelayanan luar biasa! Sangat membantu dalam perencanaan pernikahan kami."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ferdio Dwi"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Review Card 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <!-- Avatar -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/naufal"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Text Content -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tim yang profesional dan kreatif. Hasil pernikahan kami benar-benar seperti mimpi!"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Naufal"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Review Card 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <!-- Avatar -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/redrigo"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Text Content -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sangat merekomendasikan! Mereka membuat hari spesial kami menjadi tak terlupakan."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Redrigo"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <!-- Avatar -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/rio"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Text Content -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sangat merekomendasikan! Mereka membuat hari spesial kami menjadi tak terlupakan."
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rio Wildan"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <!-- Avatar -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/alvyn"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Text Content -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sangat merekomendasikan! Mereka membuat hari spesial kami menjadi tak terlupakan."
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alvyn"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <!-- Avatar -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/arindi"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Text Content -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sangat merekomendasikan! Mereka membuat hari spesial kami menjadi tak terlupakan."
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arindi"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Tambahkan review card lainnya dengan struktur yang sama -->
+
+    </LinearLayout>
+</ScrollView>
