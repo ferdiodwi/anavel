@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView.OnItemSelectedListener;
-import com.kelompok2.Activity.Fragment.AccountFragment;
+import com.kelompok2.Activity.Fragment.ProfileFragment;
 import com.kelompok2.Activity.Fragment.GalleryFragment;
 import com.kelompok2.Activity.Fragment.ReviewFragment;
 import com.kelompok2.Activity.Fragment.VendorFragment;
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements OnItemSelectedLis
     private VendorFragment vendorFragment = new VendorFragment();
     private GalleryFragment galleryFragment = new GalleryFragment();
     private ReviewFragment reviewFragment = new ReviewFragment();
-    private AccountFragment accountFragment = new AccountFragment();
+    private ProfileFragment profileFragment = new ProfileFragment();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements OnItemSelectedLis
         } else if (selected == R.id.review) {
             fragment = new ReviewFragment();
         } else if (selected == R.id.account) {
-            fragment = new AccountFragment();
+            fragment = new ProfileFragment();
         }
 
         return loadFragment(fragment);

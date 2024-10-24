@@ -15,7 +15,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/sidorabi1" />
 
     <TextView
         android:id="@+id/textView6"
@@ -34,7 +35,7 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello again, you’ve been missed!"
+        android:text="Login to Continue"
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -42,7 +43,7 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="50dp"
         android:text="Email"
         android:textColor="#00004D"
         app:layout_constraintStart_toStartOf="@+id/textView7"
@@ -112,7 +113,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/button_shape"
         android:text="Login"

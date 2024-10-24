@@ -87,7 +87,7 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/button_google"
         android:hint="Email address"
-        android:text="ferdiodwi12@gmail.com"
+
         android:paddingLeft="12dp"/>
 
     <TextView
