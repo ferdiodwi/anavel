@@ -2,12 +2,16 @@ package com.kelompok2.Activity;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationBarView.OnItemSelectedListener;
 import com.kelompok2.Activity.Fragment.ProfileFragment;
 import com.kelompok2.Activity.Fragment.GalleryFragment;
@@ -18,6 +22,8 @@ import com.kelompok2.anavel.R;
 
 public class MainActivity extends AppCompatActivity implements OnItemSelectedListener{
 
+    FloatingActionButton fab;
+    DrawerLayout drawerLayout;
 
     private BottomNavigationView bottomNavigationView;
     private HomeFragment homeFragment = new HomeFragment();
@@ -25,6 +31,8 @@ public class MainActivity extends AppCompatActivity implements OnItemSelectedLis
     private GalleryFragment galleryFragment = new GalleryFragment();
     private ReviewFragment reviewFragment = new ReviewFragment();
     private ProfileFragment profileFragment = new ProfileFragment();
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

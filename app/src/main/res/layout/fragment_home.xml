@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.kelompok2.Activity.Fragment.HomeFragment"
     android:padding="12dp">
+    
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BCBCBC" >
 
+        <ImageButton
+            android:id="@+id/buttonDrawerToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu"
+            android:background="@android:color/transparent"
+            android:padding="5dp" />
+
+    </Toolbar>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,13 +37,6 @@
         android:textStyle="bold"
         android:textSize="24sp" />
 
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Search"
-        android:background="@drawable/button_google"
-        android:padding="16dp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -212,4 +220,4 @@
 
     </LinearLayout>
 
-</ScrollView>
+</LinearLayout>

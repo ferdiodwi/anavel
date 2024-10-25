@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Anavel"
         tools:targetApi="31">
         <activity
+            android:name="com.kelompok2.Activity.MainActivity2"
+            android:exported="false" />
+        <activity
             android:name="com.kelompok2.Activity.ScrollActivity"
             android:exported="false" />
         <activity
@@ -28,8 +31,8 @@
             android:name="com.kelompok2.Activity.StartActivity"
             android:exported="false" />
         <activity
-             android:name="com.kelompok2.Activity.LoginActivity"
-             android:exported="true" >
+            android:name="com.kelompok2.Activity.LoginActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
