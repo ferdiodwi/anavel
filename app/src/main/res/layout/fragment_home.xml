@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
@@ -7,32 +7,18 @@
     android:layout_height="match_parent"
     tools:context="com.kelompok2.Activity.Fragment.HomeFragment"
     android:padding="12dp">
-    
-    <Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#BCBCBC" >
-
-        <ImageButton
-            android:id="@+id/buttonDrawerToggle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/menu"
-            android:background="@android:color/transparent"
-            android:padding="5dp" />
-
-    </Toolbar>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical" >
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="16dp"
-        android:text="Sido Rabi"
+        android:text="SIDO RABI"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="24sp" />
@@ -40,12 +26,32 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="20dp"/>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="Dekorasi"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp" />
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:background="@drawable/rectangle121">
+        android:layout_marginTop="10dp"
+        android:background="@drawable/adatjawa1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Adat Jawa"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="#80000000"
+            android:padding="0dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="-40dp"
+            android:gravity="center"
+            android:layout_width="match_parent" />
 
     </FrameLayout>
 
@@ -60,11 +66,11 @@
             android:layout_height="100dp"
             android:layout_margin="8dp"
             android:layout_weight="1"
-            android:background="@drawable/rectangle119">
+            android:background="@drawable/pernikahan2" >
 
             <TextView
                 android:layout_height="wrap_content"
-                android:text="Invitation"
+                android:text="Modern Minimalis"
                 android:textSize="18sp"
                 android:textColor="#FFFFFF"
                 android:background="#80000000"
@@ -73,6 +79,7 @@
                 android:layout_marginTop="-40dp"
                 android:gravity="center"
                 android:layout_width="match_parent" />
+
         </FrameLayout>
 
         <FrameLayout
@@ -80,11 +87,11 @@
             android:layout_height="100dp"
             android:layout_margin="8dp"
             android:layout_weight="1"
-            android:background="@drawable/rectangle122">
+            android:background="@drawable/pernikahan3" >
 
             <TextView
                 android:layout_height="wrap_content"
-                android:text="Tasklist"
+                android:text="Outdoor"
                 android:textSize="18sp"
                 android:textColor="#FFFFFF"
                 android:background="#80000000"
@@ -93,6 +100,7 @@
                 android:layout_marginTop="-40dp"
                 android:gravity="center"
                 android:layout_width="match_parent" />
+
         </FrameLayout>
 
     </LinearLayout>
@@ -100,9 +108,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:gravity="left"
-        android:padding="16dp"
-        android:text="Wedds Planning Services"
+        android:padding="10dp"
+        android:text="Catering"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="18sp" />
@@ -110,65 +119,108 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/rectangle123"/>
+        android:layout_marginTop="10dp"
+        android:background="@drawable/igabakar" >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Iga Bakar"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="#80000000"
+            android:padding="0dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="-40dp"
+            android:gravity="center"
+            android:layout_width="match_parent" />
+
+    </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/sopbuntut">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="Sop Buntut"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:background="#80000000"
+                    android:padding="0dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="-40dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/satemaranggi">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="Sate Maranggi"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:background="#80000000"
+                    android:padding="0dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="-40dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:gravity="left"
-            android:padding="16dp"
-            android:text="Favourites"
+            android:padding="10dp"
+            android:text="Make Up Artist"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="18sp" />
 
-        <LinearLayout
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="2">
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/muanikah1">
 
-            <FrameLayout
-                android:layout_width="0dp"
-                android:layout_height="100dp"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="@drawable/rectangle135">
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="Make Up"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="#80000000"
+                android:padding="0dp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="-40dp"
+                android:gravity="center"
+                android:layout_width="match_parent" />
 
-                <TextView
-                    android:layout_height="wrap_content"
-                    android:text="Jewellery"
-                    android:textSize="18sp"
-                    android:textColor="#FFFFFF"
-                    android:background="#80000000"
-                    android:padding="0dp"
-                    android:layout_gravity="bottom"
-                    android:layout_marginTop="-40dp"
-                    android:gravity="center"
-                    android:layout_width="match_parent" />
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="0dp"
-                android:layout_height="100dp"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="@drawable/rectangle136">
-
-                <TextView
-                    android:layout_height="wrap_content"
-                    android:text="Bridal Wear"
-                    android:textSize="18sp"
-                    android:textColor="#FFFFFF"
-                    android:background="#80000000"
-                    android:padding="0dp"
-                    android:layout_gravity="bottom"
-                    android:layout_marginTop="-40dp"
-                    android:gravity="center"
-                    android:layout_width="match_parent" />
-            </FrameLayout>
-        </LinearLayout>
+        </FrameLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -181,19 +233,20 @@
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/rectangle137">
+                android:background="@drawable/muanikah2">
 
                 <TextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Mehndi"
-                    android:textSize="18sp"
-                    android:textColor="#FFFFFF"
-                    android:background="#80000000"
-                    android:padding="0dp"
                     android:layout_gravity="bottom"
                     android:layout_marginTop="-40dp"
+                    android:background="#80000000"
                     android:gravity="center"
-                    android:layout_width="match_parent" />
+                    android:padding="0dp"
+                    android:text="Adat Jawa"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
             </FrameLayout>
 
             <FrameLayout
@@ -201,11 +254,11 @@
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/rectangle138">
+                android:background="@drawable/muanikah3">
 
                 <TextView
                     android:layout_height="wrap_content"
-                    android:text="Makeup artist"
+                    android:text="Adat Bali"
                     android:textSize="18sp"
                     android:textColor="#FFFFFF"
                     android:background="#80000000"
@@ -215,9 +268,9 @@
                     android:gravity="center"
                     android:layout_width="match_parent" />
             </FrameLayout>
-        </LinearLayout>
 
+        </LinearLayout>
 
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>
