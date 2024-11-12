@@ -153,7 +153,7 @@
 
             <!-- Rating -->
             <TextView
-                android:id="@+id/tvRating3"
+                android:id="@+id/tvRating2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="★ 5.0 (10)"
@@ -166,7 +166,7 @@
 
             <!-- Shortlist Button -->
             <Button
-                android:id="@+id/btnShortlist3"
+                android:id="@+id/btnShortlist2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_shape"
@@ -179,7 +179,7 @@
 
             <!-- Share Button -->
             <Button
-                android:id="@+id/btnShare3"
+                android:id="@+id/btnShare2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_shape"
